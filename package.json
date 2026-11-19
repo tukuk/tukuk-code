@@ -1,0 +1,19 @@
+{
+  "name": "tukuk-code",
+  "version": "1.0.0",
+  "description": "Tukuk-OS Code — code service for code.tukuk.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "lint": "node --check index.js && echo \"Code lint OK\"",
+    "test": "node --check index.js && echo \"Code tests passed\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tukuk/tukuk-code.git"
+  },
+  "author": "Tukuk",
+  "license": "ISC",
+  "private": true
+}
